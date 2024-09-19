@@ -1,0 +1,104 @@
+Homework 1 - Exercises:
+
+# 1.1
+
+### a. Identify possible prior information for Leslie's story.
+
+Prior: {milk is brown, milk is white}
+
+### b. Identify the incoming data that Leslie weighed against her chocolate milk story. 
+
+Data: {from brown cow, from choc. syrup}
+
+### c. Identify the updated conclusion from the chocolate milk story.
+
+conclusion: P(brown milk | choc. syrup) > P(brown milk| brown cow)
+
+# 2.1
+
+### a. A = you just finished reading Lambda Literary Award-winning author Nicole Dennis-Benn’s first novel, and you enjoyed it!  B = you will also enjoy Benn’s newest novel.
+
+P(B|A) > P(B) - probability of enjoying the new novel is greater if we have already enjoyed one such novel
+
+or,
+
+P(enjoy new | enjoyed old) > P(enjoy new)
+
+### b. A  = it’s 0 degrees Fahrenheit in Minnesota on a January day.  B  = it will be 60 degrees tomorrow.
+
+It's the midwest! Who knows!
+
+On average, a 60 degree temperature swing is unlikely, so:
+
+P(B | A) < P(B), or 
+
+P(60 deg. tomorrow | 0 deg. today) < P(60 deg. tomorrow)
+
+### c. A  = the authors only got 3 hours of sleep last night.  B  = the authors make several typos in their writing today.
+
+Getting less sleep means we're more likely to make typos, so:
+
+P(B|A) > P(B), or
+
+P(typos|bad sleep) > P(typos)
+
+### d. A  = your friend includes three hashtags in their tweet.  B  = the tweet gets retweeted.
+
+Adding more tags to your tweet gets more visibility, and therefore is more likely to be retweeted, so:
+
+P(B|A) > P(B), or
+
+P(retweets|more hashtags) > P(retweets)
+
+# 2.2
+
+Define the following events for a resident of a fictional town:  
+
+* A = drives 10 miles per hour above the speed limit,  
+
+* B = gets a speeding ticket,  
+
+* C = took statistics at the local college,  
+
+* D = has used R,  
+
+* E = likes the music of Prince, and  
+
+* F = is a Minnesotan. 
+
+Several facts about these events are listed below. Specify each of these facts using probability notation, paying special attention to whether it’s a marginal, conditional, or joint probability.
+
+a. P(B|A) = 73% - conditional
+
+b. P(A) = 20% - marginal
+
+c. P(D) = 15% - marginal
+
+d. P(D|C) = 91% - conditional
+
+e. P(F intersect E) = 38% - joint
+
+f. P(E|F) = 95% - conditional
+
+# 2.3
+
+# 2.20
+
+
+# 2.21
+
+# 2.5
+
+# 2.8
+
+# 2.6
+
+# 2.10
+
+# 2.11
+
+# 2.13
+
+# 2.14
+
+# 2.16
